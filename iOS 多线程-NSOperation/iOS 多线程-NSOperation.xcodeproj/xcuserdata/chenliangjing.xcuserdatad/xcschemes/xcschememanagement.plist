@@ -4,15 +4,85 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NSOperation 的依赖和监听.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>NSOperationQuene 线程间通信.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>NSOperationQueue.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>NSOpreation 实现多图下载.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>NSOpreationQueue 最大并发数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>NSOpreationQueue 的挂起和取消.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>iOS 多线程-NSOperation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>自定义 Opreation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5D458A321EB85B67007028F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D458A501EB86859007028F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D458A6B1EB86D27007028F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D458A891EB87139007028F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D458AA41EB87429007028F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D458ABF1EB87E06007028F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D458ADA1EB88356007028F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D458AF51EB88FCD007028F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
