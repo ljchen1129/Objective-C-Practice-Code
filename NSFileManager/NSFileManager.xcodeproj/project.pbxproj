@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D36BD2D1EB0E59900E3F079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D36BD2C1EB0E59900E3F079 /* main.m */; };
+		5D36BD3A1EB0ECA600E3F079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D36BD391EB0ECA600E3F079 /* main.m */; };
+		5D36BD451EB0ECCC00E3F079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D36BD441EB0ECCC00E3F079 /* main.m */; };
+		5D36BD501EB0EDDE00E3F079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D36BD4F1EB0EDDE00E3F079 /* main.m */; };
+		5D36BD5B1EB0F0EA00E3F079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D36BD5A1EB0F0EA00E3F079 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D36BD271EB0E59900E3F079 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5D36BD351EB0ECA600E3F079 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5D36BD401EB0ECCC00E3F079 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5D36BD4B1EB0EDDE00E3F079 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5D36BD561EB0F0EA00E3F079 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D36BD291EB0E59900E3F079 /* NSFileManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSFileManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D36BD2C1EB0E59900E3F079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D36BD371EB0ECA600E3F079 /* 创建文件夹 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "创建文件夹"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D36BD391EB0ECA600E3F079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D36BD421EB0ECCC00E3F079 /* 获取文件夹下所有的文件 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "获取文件夹下所有的文件"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D36BD441EB0ECCC00E3F079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D36BD4D1EB0EDDE00E3F079 /* 获取文件或者文件夹属性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "获取文件或者文件夹属性"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D36BD4F1EB0EDDE00E3F079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D36BD581EB0F0EA00E3F079 /* 创建文件 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "创建文件"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D36BD5A1EB0F0EA00E3F079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D36BD261EB0E59900E3F079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD341EB0ECA600E3F079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD3F1EB0ECCC00E3F079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD4A1EB0EDDE00E3F079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD551EB0F0EA00E3F079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D36BD201EB0E59900E3F079 = {
+			isa = PBXGroup;
+			children = (
+				5D36BD2B1EB0E59900E3F079 /* NSFileManager */,
+				5D36BD381EB0ECA600E3F079 /* 创建文件夹 */,
+				5D36BD431EB0ECCC00E3F079 /* 获取文件夹下所有的文件 */,
+				5D36BD4E1EB0EDDE00E3F079 /* 获取文件或者文件夹属性 */,
+				5D36BD591EB0F0EA00E3F079 /* 创建文件 */,
+				5D36BD2A1EB0E59900E3F079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D36BD2A1EB0E59900E3F079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D36BD291EB0E59900E3F079 /* NSFileManager */,
+				5D36BD371EB0ECA600E3F079 /* 创建文件夹 */,
+				5D36BD421EB0ECCC00E3F079 /* 获取文件夹下所有的文件 */,
+				5D36BD4D1EB0EDDE00E3F079 /* 获取文件或者文件夹属性 */,
+				5D36BD581EB0F0EA00E3F079 /* 创建文件 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D36BD2B1EB0E59900E3F079 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				5D36BD2C1EB0E59900E3F079 /* main.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		5D36BD381EB0ECA600E3F079 /* 创建文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+				5D36BD391EB0ECA600E3F079 /* main.m */,
+			);
+			path = "创建文件夹";
+			sourceTree = "<group>";
+		};
+		5D36BD431EB0ECCC00E3F079 /* 获取文件夹下所有的文件 */ = {
+			isa = PBXGroup;
+			children = (
+				5D36BD441EB0ECCC00E3F079 /* main.m */,
+			);
+			path = "获取文件夹下所有的文件";
+			sourceTree = "<group>";
+		};
+		5D36BD4E1EB0EDDE00E3F079 /* 获取文件或者文件夹属性 */ = {
+			isa = PBXGroup;
+			children = (
+				5D36BD4F1EB0EDDE00E3F079 /* main.m */,
+			);
+			path = "获取文件或者文件夹属性";
+			sourceTree = "<group>";
+		};
+		5D36BD591EB0F0EA00E3F079 /* 创建文件 */ = {
+			isa = PBXGroup;
+			children = (
+				5D36BD5A1EB0F0EA00E3F079 /* main.m */,
+			);
+			path = "创建文件";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D36BD281EB0E59900E3F079 /* NSFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D36BD301EB0E59900E3F079 /* Build configuration list for PBXNativeTarget "NSFileManager" */;
+			buildPhases = (
+				5D36BD251EB0E59900E3F079 /* Sources */,
+				5D36BD261EB0E59900E3F079 /* Frameworks */,
+				5D36BD271EB0E59900E3F079 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSFileManager;
+			productName = NSFileManager;
+			productReference = 5D36BD291EB0E59900E3F079 /* NSFileManager */;
+			productType = "com.apple.product-type.tool";
+		};
+		5D36BD361EB0ECA600E3F079 /* 创建文件夹 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D36BD3B1EB0ECA600E3F079 /* Build configuration list for PBXNativeTarget "创建文件夹" */;
+			buildPhases = (
+				5D36BD331EB0ECA600E3F079 /* Sources */,
+				5D36BD341EB0ECA600E3F079 /* Frameworks */,
+				5D36BD351EB0ECA600E3F079 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "创建文件夹";
+			productName = "创建文件夹";
+			productReference = 5D36BD371EB0ECA600E3F079 /* 创建文件夹 */;
+			productType = "com.apple.product-type.tool";
+		};
+		5D36BD411EB0ECCC00E3F079 /* 获取文件夹下所有的文件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D36BD461EB0ECCC00E3F079 /* Build configuration list for PBXNativeTarget "获取文件夹下所有的文件" */;
+			buildPhases = (
+				5D36BD3E1EB0ECCC00E3F079 /* Sources */,
+				5D36BD3F1EB0ECCC00E3F079 /* Frameworks */,
+				5D36BD401EB0ECCC00E3F079 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "获取文件夹下所有的文件";
+			productName = "获取文件夹下所有的文件";
+			productReference = 5D36BD421EB0ECCC00E3F079 /* 获取文件夹下所有的文件 */;
+			productType = "com.apple.product-type.tool";
+		};
+		5D36BD4C1EB0EDDE00E3F079 /* 获取文件或者文件夹属性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D36BD511EB0EDDE00E3F079 /* Build configuration list for PBXNativeTarget "获取文件或者文件夹属性" */;
+			buildPhases = (
+				5D36BD491EB0EDDE00E3F079 /* Sources */,
+				5D36BD4A1EB0EDDE00E3F079 /* Frameworks */,
+				5D36BD4B1EB0EDDE00E3F079 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "获取文件或者文件夹属性";
+			productName = "获取文件或者文件夹属性";
+			productReference = 5D36BD4D1EB0EDDE00E3F079 /* 获取文件或者文件夹属性 */;
+			productType = "com.apple.product-type.tool";
+		};
+		5D36BD571EB0F0EA00E3F079 /* 创建文件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D36BD5C1EB0F0EA00E3F079 /* Build configuration list for PBXNativeTarget "创建文件" */;
+			buildPhases = (
+				5D36BD541EB0F0EA00E3F079 /* Sources */,
+				5D36BD551EB0F0EA00E3F079 /* Frameworks */,
+				5D36BD561EB0F0EA00E3F079 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "创建文件";
+			productName = "创建文件";
+			productReference = 5D36BD581EB0F0EA00E3F079 /* 创建文件 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D36BD211EB0E59900E3F079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "陈良静";
+				TargetAttributes = {
+					5D36BD281EB0E59900E3F079 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D36BD361EB0ECA600E3F079 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D36BD411EB0ECCC00E3F079 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D36BD4C1EB0EDDE00E3F079 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D36BD571EB0F0EA00E3F079 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D36BD241EB0E59900E3F079 /* Build configuration list for PBXProject "NSFileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D36BD201EB0E59900E3F079;
+			productRefGroup = 5D36BD2A1EB0E59900E3F079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D36BD281EB0E59900E3F079 /* NSFileManager */,
+				5D36BD361EB0ECA600E3F079 /* 创建文件夹 */,
+				5D36BD411EB0ECCC00E3F079 /* 获取文件夹下所有的文件 */,
+				5D36BD4C1EB0EDDE00E3F079 /* 获取文件或者文件夹属性 */,
+				5D36BD571EB0F0EA00E3F079 /* 创建文件 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D36BD251EB0E59900E3F079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D36BD2D1EB0E59900E3F079 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD331EB0ECA600E3F079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D36BD3A1EB0ECA600E3F079 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD3E1EB0ECCC00E3F079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D36BD451EB0ECCC00E3F079 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD491EB0EDDE00E3F079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D36BD501EB0EDDE00E3F079 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36BD541EB0F0EA00E3F079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D36BD5B1EB0F0EA00E3F079 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D36BD2E1EB0E59900E3F079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D36BD2F1EB0E59900E3F079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D36BD311EB0E59900E3F079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D36BD321EB0E59900E3F079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D36BD3C1EB0ECA600E3F079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D36BD3D1EB0ECA600E3F079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D36BD471EB0ECCC00E3F079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D36BD481EB0ECCC00E3F079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D36BD521EB0EDDE00E3F079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D36BD531EB0EDDE00E3F079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D36BD5D1EB0F0EA00E3F079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D36BD5E1EB0F0EA00E3F079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D36BD241EB0E59900E3F079 /* Build configuration list for PBXProject "NSFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D36BD2E1EB0E59900E3F079 /* Debug */,
+				5D36BD2F1EB0E59900E3F079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D36BD301EB0E59900E3F079 /* Build configuration list for PBXNativeTarget "NSFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D36BD311EB0E59900E3F079 /* Debug */,
+				5D36BD321EB0E59900E3F079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D36BD3B1EB0ECA600E3F079 /* Build configuration list for PBXNativeTarget "创建文件夹" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D36BD3C1EB0ECA600E3F079 /* Debug */,
+				5D36BD3D1EB0ECA600E3F079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D36BD461EB0ECCC00E3F079 /* Build configuration list for PBXNativeTarget "获取文件夹下所有的文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D36BD471EB0ECCC00E3F079 /* Debug */,
+				5D36BD481EB0ECCC00E3F079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D36BD511EB0EDDE00E3F079 /* Build configuration list for PBXNativeTarget "获取文件或者文件夹属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D36BD521EB0EDDE00E3F079 /* Debug */,
+				5D36BD531EB0EDDE00E3F079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D36BD5C1EB0F0EA00E3F079 /* Build configuration list for PBXNativeTarget "创建文件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D36BD5D1EB0F0EA00E3F079 /* Debug */,
+				5D36BD5E1EB0F0EA00E3F079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D36BD211EB0E59900E3F079 /* Project object */;
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>NSArray 文件读写.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>NSString 和 NSArray 相互转换.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>数组.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>数组创建.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>数组排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>数组遍历.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>给数组中的对象发消息.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5D36BBFB1EB091C600E3F079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D36BC091EB0920200E3F079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D36BC141EB0A58500E3F079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D36BC1F1EB0A7F000E3F079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D36BC2D1EB0AAC600E3F079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D36BC3B1EB0B13600E3F079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D36BC461EB0B72800E3F079</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
