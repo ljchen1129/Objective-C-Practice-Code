@@ -33,6 +33,15 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)didReceiveMemoryWarning
+{
+    // 清除所有内存缓存
+    [self.imageCache removeAllObjects];
+    
+    // 取消所有正在进行的操作
+    [self.queue cancelAllOperations];
+}
+
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
