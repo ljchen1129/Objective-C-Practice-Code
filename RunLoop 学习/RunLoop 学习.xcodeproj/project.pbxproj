@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5FE7481EC1780D0040D84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7471EC1780D0040D84A /* main.m */; };
+		5D5FE74B1EC1780D0040D84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE74A1EC1780D0040D84A /* AppDelegate.m */; };
+		5D5FE74E1EC1780D0040D84A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE74D1EC1780D0040D84A /* ViewController.m */; };
+		5D5FE7511EC1780D0040D84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE74F1EC1780D0040D84A /* Main.storyboard */; };
+		5D5FE7531EC1780D0040D84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7521EC1780D0040D84A /* Assets.xcassets */; };
+		5D5FE7561EC1780D0040D84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7541EC1780D0040D84A /* LaunchScreen.storyboard */; };
+		5D5FE7651EC1AE320040D84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7641EC1AE320040D84A /* main.m */; };
+		5D5FE7681EC1AE320040D84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7671EC1AE320040D84A /* AppDelegate.m */; };
+		5D5FE76B1EC1AE320040D84A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE76A1EC1AE320040D84A /* ViewController.m */; };
+		5D5FE76E1EC1AE320040D84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE76C1EC1AE320040D84A /* Main.storyboard */; };
+		5D5FE7701EC1AE320040D84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE76F1EC1AE320040D84A /* Assets.xcassets */; };
+		5D5FE7731EC1AE320040D84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7711EC1AE320040D84A /* LaunchScreen.storyboard */; };
+		5D5FE7801EC1B0F50040D84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE77F1EC1B0F50040D84A /* main.m */; };
+		5D5FE7831EC1B0F50040D84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7821EC1B0F50040D84A /* AppDelegate.m */; };
+		5D5FE7861EC1B0F50040D84A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7851EC1B0F50040D84A /* ViewController.m */; };
+		5D5FE7891EC1B0F50040D84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7871EC1B0F50040D84A /* Main.storyboard */; };
+		5D5FE78B1EC1B0F50040D84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE78A1EC1B0F50040D84A /* Assets.xcassets */; };
+		5D5FE78E1EC1B0F50040D84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE78C1EC1B0F50040D84A /* LaunchScreen.storyboard */; };
+		5D5FE7951EC1B1200040D84A /* CustomThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7941EC1B1200040D84A /* CustomThread.m */; };
+		5D5FE79E1EC1B6090040D84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE79D1EC1B6090040D84A /* main.m */; };
+		5D5FE7A11EC1B6090040D84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7A01EC1B6090040D84A /* AppDelegate.m */; };
+		5D5FE7A41EC1B6090040D84A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7A31EC1B6090040D84A /* ViewController.m */; };
+		5D5FE7A71EC1B6090040D84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7A51EC1B6090040D84A /* Main.storyboard */; };
+		5D5FE7A91EC1B6090040D84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7A81EC1B6090040D84A /* Assets.xcassets */; };
+		5D5FE7AC1EC1B6090040D84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7AA1EC1B6090040D84A /* LaunchScreen.storyboard */; };
+		5D5FE7B91EC1CDD10040D84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7B81EC1CDD10040D84A /* main.m */; };
+		5D5FE7BC1EC1CDD10040D84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7BB1EC1CDD10040D84A /* AppDelegate.m */; };
+		5D5FE7BF1EC1CDD10040D84A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5FE7BE1EC1CDD10040D84A /* ViewController.m */; };
+		5D5FE7C21EC1CDD10040D84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7C01EC1CDD10040D84A /* Main.storyboard */; };
+		5D5FE7C41EC1CDD10040D84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7C31EC1CDD10040D84A /* Assets.xcassets */; };
+		5D5FE7C71EC1CDD10040D84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5FE7C51EC1CDD10040D84A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D5FE7431EC1780D0040D84A /* RunLoop 学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunLoop 学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5FE7471EC1780D0040D84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D5FE7491EC1780D0040D84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D5FE74A1EC1780D0040D84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D5FE74C1EC1780D0040D84A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D5FE74D1EC1780D0040D84A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D5FE7501EC1780D0040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5FE7521EC1780D0040D84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5FE7551EC1780D0040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5FE7571EC1780D0040D84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5FE7611EC1AE320040D84A /* RunLoop 接口方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunLoop 接口方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5FE7641EC1AE320040D84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D5FE7661EC1AE320040D84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D5FE7671EC1AE320040D84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D5FE7691EC1AE320040D84A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D5FE76A1EC1AE320040D84A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D5FE76D1EC1AE320040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5FE76F1EC1AE320040D84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5FE7721EC1AE320040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5FE7741EC1AE320040D84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5FE77C1EC1B0F50040D84A /* 创建常驻线程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "创建常驻线程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5FE77F1EC1B0F50040D84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D5FE7811EC1B0F50040D84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D5FE7821EC1B0F50040D84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D5FE7841EC1B0F50040D84A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D5FE7851EC1B0F50040D84A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D5FE7881EC1B0F50040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5FE78A1EC1B0F50040D84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5FE78D1EC1B0F50040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5FE78F1EC1B0F50040D84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5FE7931EC1B1200040D84A /* CustomThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomThread.h; sourceTree = "<group>"; };
+		5D5FE7941EC1B1200040D84A /* CustomThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomThread.m; sourceTree = "<group>"; };
+		5D5FE79A1EC1B6090040D84A /* 添加观察者，监听 RunLoop 活动状态的改变.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "添加观察者，监听 RunLoop 活动状态的改变.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5FE79D1EC1B6090040D84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D5FE79F1EC1B6090040D84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D5FE7A01EC1B6090040D84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D5FE7A21EC1B6090040D84A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D5FE7A31EC1B6090040D84A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D5FE7A61EC1B6090040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5FE7A81EC1B6090040D84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5FE7AB1EC1B6090040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5FE7AD1EC1B6090040D84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5FE7B51EC1CDD10040D84A /* PerformSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5FE7B81EC1CDD10040D84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D5FE7BA1EC1CDD10040D84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D5FE7BB1EC1CDD10040D84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D5FE7BD1EC1CDD10040D84A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D5FE7BE1EC1CDD10040D84A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D5FE7C11EC1CDD10040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5FE7C31EC1CDD10040D84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5FE7C61EC1CDD10040D84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5FE7C81EC1CDD10040D84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5FE7401EC1780D0040D84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE75E1EC1AE320040D84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7791EC1B0F50040D84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7971EC1B6090040D84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7B21EC1CDD10040D84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5FE73A1EC1780D0040D84A = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7451EC1780D0040D84A /* RunLoop 学习 */,
+				5D5FE7621EC1AE320040D84A /* RunLoop 接口方法 */,
+				5D5FE77D1EC1B0F50040D84A /* 创建常驻线程 */,
+				5D5FE79B1EC1B6090040D84A /* 添加观察者，监听 RunLoop 活动状态的改变 */,
+				5D5FE7B61EC1CDD10040D84A /* PerformSelector */,
+				5D5FE7441EC1780D0040D84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5FE7441EC1780D0040D84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7431EC1780D0040D84A /* RunLoop 学习.app */,
+				5D5FE7611EC1AE320040D84A /* RunLoop 接口方法.app */,
+				5D5FE77C1EC1B0F50040D84A /* 创建常驻线程.app */,
+				5D5FE79A1EC1B6090040D84A /* 添加观察者，监听 RunLoop 活动状态的改变.app */,
+				5D5FE7B51EC1CDD10040D84A /* PerformSelector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5FE7451EC1780D0040D84A /* RunLoop 学习 */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7491EC1780D0040D84A /* AppDelegate.h */,
+				5D5FE74A1EC1780D0040D84A /* AppDelegate.m */,
+				5D5FE74C1EC1780D0040D84A /* ViewController.h */,
+				5D5FE74D1EC1780D0040D84A /* ViewController.m */,
+				5D5FE74F1EC1780D0040D84A /* Main.storyboard */,
+				5D5FE7521EC1780D0040D84A /* Assets.xcassets */,
+				5D5FE7541EC1780D0040D84A /* LaunchScreen.storyboard */,
+				5D5FE7571EC1780D0040D84A /* Info.plist */,
+				5D5FE7461EC1780D0040D84A /* Supporting Files */,
+			);
+			path = "RunLoop 学习";
+			sourceTree = "<group>";
+		};
+		5D5FE7461EC1780D0040D84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7471EC1780D0040D84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D5FE7621EC1AE320040D84A /* RunLoop 接口方法 */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7661EC1AE320040D84A /* AppDelegate.h */,
+				5D5FE7671EC1AE320040D84A /* AppDelegate.m */,
+				5D5FE7691EC1AE320040D84A /* ViewController.h */,
+				5D5FE76A1EC1AE320040D84A /* ViewController.m */,
+				5D5FE76C1EC1AE320040D84A /* Main.storyboard */,
+				5D5FE76F1EC1AE320040D84A /* Assets.xcassets */,
+				5D5FE7711EC1AE320040D84A /* LaunchScreen.storyboard */,
+				5D5FE7741EC1AE320040D84A /* Info.plist */,
+				5D5FE7631EC1AE320040D84A /* Supporting Files */,
+			);
+			path = "RunLoop 接口方法";
+			sourceTree = "<group>";
+		};
+		5D5FE7631EC1AE320040D84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7641EC1AE320040D84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D5FE77D1EC1B0F50040D84A /* 创建常驻线程 */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7811EC1B0F50040D84A /* AppDelegate.h */,
+				5D5FE7821EC1B0F50040D84A /* AppDelegate.m */,
+				5D5FE7841EC1B0F50040D84A /* ViewController.h */,
+				5D5FE7851EC1B0F50040D84A /* ViewController.m */,
+				5D5FE7931EC1B1200040D84A /* CustomThread.h */,
+				5D5FE7941EC1B1200040D84A /* CustomThread.m */,
+				5D5FE7871EC1B0F50040D84A /* Main.storyboard */,
+				5D5FE78A1EC1B0F50040D84A /* Assets.xcassets */,
+				5D5FE78C1EC1B0F50040D84A /* LaunchScreen.storyboard */,
+				5D5FE78F1EC1B0F50040D84A /* Info.plist */,
+				5D5FE77E1EC1B0F50040D84A /* Supporting Files */,
+			);
+			path = "创建常驻线程";
+			sourceTree = "<group>";
+		};
+		5D5FE77E1EC1B0F50040D84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE77F1EC1B0F50040D84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D5FE79B1EC1B6090040D84A /* 添加观察者，监听 RunLoop 活动状态的改变 */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE79F1EC1B6090040D84A /* AppDelegate.h */,
+				5D5FE7A01EC1B6090040D84A /* AppDelegate.m */,
+				5D5FE7A21EC1B6090040D84A /* ViewController.h */,
+				5D5FE7A31EC1B6090040D84A /* ViewController.m */,
+				5D5FE7A51EC1B6090040D84A /* Main.storyboard */,
+				5D5FE7A81EC1B6090040D84A /* Assets.xcassets */,
+				5D5FE7AA1EC1B6090040D84A /* LaunchScreen.storyboard */,
+				5D5FE7AD1EC1B6090040D84A /* Info.plist */,
+				5D5FE79C1EC1B6090040D84A /* Supporting Files */,
+			);
+			path = "添加观察者，监听 RunLoop 活动状态的改变";
+			sourceTree = "<group>";
+		};
+		5D5FE79C1EC1B6090040D84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE79D1EC1B6090040D84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D5FE7B61EC1CDD10040D84A /* PerformSelector */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7BA1EC1CDD10040D84A /* AppDelegate.h */,
+				5D5FE7BB1EC1CDD10040D84A /* AppDelegate.m */,
+				5D5FE7BD1EC1CDD10040D84A /* ViewController.h */,
+				5D5FE7BE1EC1CDD10040D84A /* ViewController.m */,
+				5D5FE7C01EC1CDD10040D84A /* Main.storyboard */,
+				5D5FE7C31EC1CDD10040D84A /* Assets.xcassets */,
+				5D5FE7C51EC1CDD10040D84A /* LaunchScreen.storyboard */,
+				5D5FE7C81EC1CDD10040D84A /* Info.plist */,
+				5D5FE7B71EC1CDD10040D84A /* Supporting Files */,
+			);
+			path = PerformSelector;
+			sourceTree = "<group>";
+		};
+		5D5FE7B71EC1CDD10040D84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FE7B81EC1CDD10040D84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5FE7421EC1780D0040D84A /* RunLoop 学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5FE75A1EC1780D0040D84A /* Build configuration list for PBXNativeTarget "RunLoop 学习" */;
+			buildPhases = (
+				5D5FE73F1EC1780D0040D84A /* Sources */,
+				5D5FE7401EC1780D0040D84A /* Frameworks */,
+				5D5FE7411EC1780D0040D84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RunLoop 学习";
+			productName = "RunLoop 学习";
+			productReference = 5D5FE7431EC1780D0040D84A /* RunLoop 学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5FE7601EC1AE320040D84A /* RunLoop 接口方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5FE7751EC1AE320040D84A /* Build configuration list for PBXNativeTarget "RunLoop 接口方法" */;
+			buildPhases = (
+				5D5FE75D1EC1AE320040D84A /* Sources */,
+				5D5FE75E1EC1AE320040D84A /* Frameworks */,
+				5D5FE75F1EC1AE320040D84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RunLoop 接口方法";
+			productName = "RunLoop 接口方法";
+			productReference = 5D5FE7611EC1AE320040D84A /* RunLoop 接口方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5FE77B1EC1B0F50040D84A /* 创建常驻线程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5FE7901EC1B0F50040D84A /* Build configuration list for PBXNativeTarget "创建常驻线程" */;
+			buildPhases = (
+				5D5FE7781EC1B0F50040D84A /* Sources */,
+				5D5FE7791EC1B0F50040D84A /* Frameworks */,
+				5D5FE77A1EC1B0F50040D84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "创建常驻线程";
+			productName = "创建常驻线程";
+			productReference = 5D5FE77C1EC1B0F50040D84A /* 创建常驻线程.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5FE7991EC1B6090040D84A /* 添加观察者，监听 RunLoop 活动状态的改变 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5FE7AE1EC1B6090040D84A /* Build configuration list for PBXNativeTarget "添加观察者，监听 RunLoop 活动状态的改变" */;
+			buildPhases = (
+				5D5FE7961EC1B6090040D84A /* Sources */,
+				5D5FE7971EC1B6090040D84A /* Frameworks */,
+				5D5FE7981EC1B6090040D84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "添加观察者，监听 RunLoop 活动状态的改变";
+			productName = "添加观察者，监听 RunLoop 活动状态的改变";
+			productReference = 5D5FE79A1EC1B6090040D84A /* 添加观察者，监听 RunLoop 活动状态的改变.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5FE7B41EC1CDD10040D84A /* PerformSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5FE7C91EC1CDD10040D84A /* Build configuration list for PBXNativeTarget "PerformSelector" */;
+			buildPhases = (
+				5D5FE7B11EC1CDD10040D84A /* Sources */,
+				5D5FE7B21EC1CDD10040D84A /* Frameworks */,
+				5D5FE7B31EC1CDD10040D84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerformSelector;
+			productName = PerformSelector;
+			productReference = 5D5FE7B51EC1CDD10040D84A /* PerformSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5FE73B1EC1780D0040D84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "陈良静";
+				TargetAttributes = {
+					5D5FE7421EC1780D0040D84A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D5FE7601EC1AE320040D84A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D5FE77B1EC1B0F50040D84A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D5FE7991EC1B6090040D84A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D5FE7B41EC1CDD10040D84A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D5FE73E1EC1780D0040D84A /* Build configuration list for PBXProject "RunLoop 学习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5FE73A1EC1780D0040D84A;
+			productRefGroup = 5D5FE7441EC1780D0040D84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5FE7421EC1780D0040D84A /* RunLoop 学习 */,
+				5D5FE7601EC1AE320040D84A /* RunLoop 接口方法 */,
+				5D5FE77B1EC1B0F50040D84A /* 创建常驻线程 */,
+				5D5FE7991EC1B6090040D84A /* 添加观察者，监听 RunLoop 活动状态的改变 */,
+				5D5FE7B41EC1CDD10040D84A /* PerformSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5FE7411EC1780D0040D84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE7561EC1780D0040D84A /* LaunchScreen.storyboard in Resources */,
+				5D5FE7531EC1780D0040D84A /* Assets.xcassets in Resources */,
+				5D5FE7511EC1780D0040D84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE75F1EC1AE320040D84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE7731EC1AE320040D84A /* LaunchScreen.storyboard in Resources */,
+				5D5FE7701EC1AE320040D84A /* Assets.xcassets in Resources */,
+				5D5FE76E1EC1AE320040D84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE77A1EC1B0F50040D84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE78E1EC1B0F50040D84A /* LaunchScreen.storyboard in Resources */,
+				5D5FE78B1EC1B0F50040D84A /* Assets.xcassets in Resources */,
+				5D5FE7891EC1B0F50040D84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7981EC1B6090040D84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE7AC1EC1B6090040D84A /* LaunchScreen.storyboard in Resources */,
+				5D5FE7A91EC1B6090040D84A /* Assets.xcassets in Resources */,
+				5D5FE7A71EC1B6090040D84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7B31EC1CDD10040D84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE7C71EC1CDD10040D84A /* LaunchScreen.storyboard in Resources */,
+				5D5FE7C41EC1CDD10040D84A /* Assets.xcassets in Resources */,
+				5D5FE7C21EC1CDD10040D84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5FE73F1EC1780D0040D84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE74E1EC1780D0040D84A /* ViewController.m in Sources */,
+				5D5FE74B1EC1780D0040D84A /* AppDelegate.m in Sources */,
+				5D5FE7481EC1780D0040D84A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE75D1EC1AE320040D84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE76B1EC1AE320040D84A /* ViewController.m in Sources */,
+				5D5FE7681EC1AE320040D84A /* AppDelegate.m in Sources */,
+				5D5FE7651EC1AE320040D84A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7781EC1B0F50040D84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE7951EC1B1200040D84A /* CustomThread.m in Sources */,
+				5D5FE7861EC1B0F50040D84A /* ViewController.m in Sources */,
+				5D5FE7831EC1B0F50040D84A /* AppDelegate.m in Sources */,
+				5D5FE7801EC1B0F50040D84A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7961EC1B6090040D84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE7A41EC1B6090040D84A /* ViewController.m in Sources */,
+				5D5FE7A11EC1B6090040D84A /* AppDelegate.m in Sources */,
+				5D5FE79E1EC1B6090040D84A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FE7B11EC1CDD10040D84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5FE7BF1EC1CDD10040D84A /* ViewController.m in Sources */,
+				5D5FE7BC1EC1CDD10040D84A /* AppDelegate.m in Sources */,
+				5D5FE7B91EC1CDD10040D84A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D5FE74F1EC1780D0040D84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7501EC1780D0040D84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE7541EC1780D0040D84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7551EC1780D0040D84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE76C1EC1AE320040D84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE76D1EC1AE320040D84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE7711EC1AE320040D84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7721EC1AE320040D84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE7871EC1B0F50040D84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7881EC1B0F50040D84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE78C1EC1B0F50040D84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE78D1EC1B0F50040D84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE7A51EC1B6090040D84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7A61EC1B6090040D84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE7AA1EC1B6090040D84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7AB1EC1B6090040D84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE7C01EC1CDD10040D84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7C11EC1CDD10040D84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5FE7C51EC1CDD10040D84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5FE7C61EC1CDD10040D84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5FE7581EC1780D0040D84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D5FE7591EC1780D0040D84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5FE75B1EC1780D0040D84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RunLoop 学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.RunLoop---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5FE75C1EC1780D0040D84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RunLoop 学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.RunLoop---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D5FE7761EC1AE320040D84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RunLoop 接口方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.RunLoop-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5FE7771EC1AE320040D84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RunLoop 接口方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.RunLoop-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D5FE7911EC1B0F50040D84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "创建常驻线程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5FE7921EC1B0F50040D84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "创建常驻线程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D5FE7AF1EC1B6090040D84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "添加观察者，监听 RunLoop 活动状态的改变/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.---------RunLoop--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5FE7B01EC1B6090040D84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "添加观察者，监听 RunLoop 活动状态的改变/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clj.---------RunLoop--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D5FE7CA1EC1CDD10040D84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerformSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clj.PerformSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5FE7CB1EC1CDD10040D84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerformSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clj.PerformSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5FE73E1EC1780D0040D84A /* Build configuration list for PBXProject "RunLoop 学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5FE7581EC1780D0040D84A /* Debug */,
+				5D5FE7591EC1780D0040D84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5FE75A1EC1780D0040D84A /* Build configuration list for PBXNativeTarget "RunLoop 学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5FE75B1EC1780D0040D84A /* Debug */,
+				5D5FE75C1EC1780D0040D84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D5FE7751EC1AE320040D84A /* Build configuration list for PBXNativeTarget "RunLoop 接口方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5FE7761EC1AE320040D84A /* Debug */,
+				5D5FE7771EC1AE320040D84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D5FE7901EC1B0F50040D84A /* Build configuration list for PBXNativeTarget "创建常驻线程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5FE7911EC1B0F50040D84A /* Debug */,
+				5D5FE7921EC1B0F50040D84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D5FE7AE1EC1B6090040D84A /* Build configuration list for PBXNativeTarget "添加观察者，监听 RunLoop 活动状态的改变" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5FE7AF1EC1B6090040D84A /* Debug */,
+				5D5FE7B01EC1B6090040D84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D5FE7C91EC1CDD10040D84A /* Build configuration list for PBXNativeTarget "PerformSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5FE7CA1EC1CDD10040D84A /* Debug */,
+				5D5FE7CB1EC1CDD10040D84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5FE73B1EC1780D0040D84A /* Project object */;
+}
