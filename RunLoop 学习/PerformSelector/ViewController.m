@@ -21,7 +21,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [self performSelector:@selector(run) onThread:[NSThread currentThread] withObject:nil waitUntilDone:NO modes:@[]];
+    // 指定在哪个 RunLoop 模式下执行方法
+    [self performSelector:@selector(run) onThread:[NSThread currentThread] withObject:nil waitUntilDone:NO modes:@[UITrackingRunLoopMode]];
+    
 }
 
 - (void)run
