@@ -13,7 +13,6 @@ static NSString *const kObserver = @"kObserver";
 
 @implementation NSObject (KVO)
 
-
 - (void)clj_addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath options:(NSKeyValueObservingOptions)options context:(void *)context
 {
     // 1. 自定义一个继承自观察对象的子类CLJ_KVO_Object
@@ -22,7 +21,7 @@ static NSString *const kObserver = @"kObserver";
     const char *newClassName = [[@"CLJ_KVO_" stringByAppendingString:oldClassName] UTF8String];
     
     // 定义一个类
-    // 第一个参数：继承自那个类
+    // 第一个参数：继承自哪个类
     // 第二个参数：类的名称
     // 第三个参数：
     Class cls = objc_allocateClassPair([self class], newClassName, 0);

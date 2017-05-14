@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>KVC &amp;  KVO.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>KVC 通过 NSArray 类型查找值.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>KVC 通过 NSSet 类型查找值.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>KVC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>KVO and KVC Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>KVO 与线程.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>KVO 画板.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>KVO.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5D124D3D1EC40F8300933346</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D124D5B1EC40F9800933346</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D124D761EC40FA300933346</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D71E5A61EC5A849004728C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DE89E7E1EC7F7130070F93F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DE89E9C1EC7FB970070F93F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DE89EBA1EC831E50070F93F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DE89EE11EC8AF060070F93F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

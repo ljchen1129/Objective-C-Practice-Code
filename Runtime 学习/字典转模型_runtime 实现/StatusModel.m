@@ -13,7 +13,7 @@
 
 + (NSDictionary *)arrayContainModelClass
 {
-    return @{@"pic_urls" : @"PictureModel"};
+    return @{@"pic_urls" : [PictureModel class]};
 }
 
 @end

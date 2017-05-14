@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ss1-Lw-TAG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="mmN-aq-zKK">
+            <objects>
+                <viewController id="Ss1-Lw-TAG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CTi-3d-Rp4"/>
+                        <viewControllerLayoutGuide type="bottom" id="bWJ-mZ-UlP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ncw-sL-Uok">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gkh-eG-rsY">
+                                <rect key="frame" x="156" y="318.5" width="62" height="30"/>
+                                <state key="normal" title="弹出画板"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="WeJ-D1-398"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gkh-eG-rsY" firstAttribute="centerX" secondItem="ncw-sL-Uok" secondAttribute="centerX" id="5VA-qQ-P9l"/>
+                            <constraint firstItem="Gkh-eG-rsY" firstAttribute="centerY" secondItem="ncw-sL-Uok" secondAttribute="centerY" id="YpL-pf-LsD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybm-Uv-TBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-394.39999999999998" y="-26.53673163418291"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zn6-n5-F4I">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="c6b-Wp-pMv">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdj-1F-cWT">
+                                                <rect key="frame" x="0.0" y="0.0" width="86.5" height="64"/>
+                                                <state key="normal" title="返回"/>
+                                                <connections>
+                                                    <action selector="backBTn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qbY-bC-0fv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGc-FU-3ag">
+                                                <rect key="frame" x="96.5" y="0.0" width="86" height="64"/>
+                                                <state key="normal" title="全部删除"/>
+                                                <connections>
+                                                    <action selector="deleteAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HDQ-kM-QSw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKP-KT-vOi">
+                                                <rect key="frame" x="192.5" y="0.0" width="86.5" height="64"/>
+                                                <state key="normal" title="撤销"/>
+                                                <connections>
+                                                    <action selector="undoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjk-ZR-0LF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQL-tB-tA7">
+                                                <rect key="frame" x="289" y="0.0" width="86" height="64"/>
+                                                <state key="normal" title="回退"/>
+                                                <connections>
+                                                    <action selector="redoBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBy-Vb-8pK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="c6b-Wp-pMv" secondAttribute="bottom" id="8LF-I5-vKx"/>
+                                    <constraint firstItem="c6b-Wp-pMv" firstAttribute="leading" secondItem="zn6-n5-F4I" secondAttribute="leading" id="ALQ-N0-8Jt"/>
+                                    <constraint firstAttribute="height" constant="64" id="Lu9-gQ-izO"/>
+                                    <constraint firstItem="c6b-Wp-pMv" firstAttribute="top" secondItem="zn6-n5-F4I" secondAttribute="top" id="WPo-Kv-ko1"/>
+                                    <constraint firstAttribute="trailing" secondItem="c6b-Wp-pMv" secondAttribute="trailing" id="bdb-IC-Y3I"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PAi-h7-VJF" customClass="DrawBoard">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PAi-h7-VJF" firstAttribute="top" secondItem="zn6-n5-F4I" secondAttribute="bottom" id="GNU-A9-GYL"/>
+                            <constraint firstItem="zn6-n5-F4I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HIG-Gu-Mkn"/>
+                            <constraint firstAttribute="trailing" secondItem="zn6-n5-F4I" secondAttribute="trailing" id="JaM-oX-OXj"/>
+                            <constraint firstItem="PAi-h7-VJF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SQI-TV-mWI"/>
+                            <constraint firstAttribute="trailing" secondItem="PAi-h7-VJF" secondAttribute="trailing" id="Uj0-sK-XDS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PAi-h7-VJF" secondAttribute="bottom" id="WYw-tv-J42"/>
+                            <constraint firstItem="zn6-n5-F4I" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ocd-q1-eBx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="deleteAllBtn" destination="NGc-FU-3ag" id="K7Q-8d-wOx"/>
+                        <outlet property="drawBorad" destination="PAi-h7-VJF" id="viC-6F-GcD"/>
+                        <outlet property="redoBtn" destination="EQL-tB-tA7" id="n5H-gn-4pf"/>
+                        <outlet property="undoBtn" destination="xKP-KT-vOi" id="NEx-hy-j5u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1231" y="-61"/>
+        </scene>
+    </scenes>
+</document>
