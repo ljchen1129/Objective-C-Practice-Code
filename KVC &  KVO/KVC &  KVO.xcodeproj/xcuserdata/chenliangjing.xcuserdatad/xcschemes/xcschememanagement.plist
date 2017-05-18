@@ -24,6 +24,36 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>KVCDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>KVC_Collection Operators.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>KVC_keyPath.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>KVC_字典.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>KVC_实现原理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>KVC_键值验证.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>KVO and KVC Demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -62,6 +92,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5D2950F51EC946810026AC77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D2951191EC955A50026AC77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5D71E5A61EC5A849004728C4</key>
 		<dict>
 			<key>primary</key>
@@ -83,6 +123,26 @@
 			<true/>
 		</dict>
 		<key>5DE89EE11EC8AF060070F93F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DFBD6371ECD65BF00CBC44B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DFBD65D1ECD886400CBC44B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DFBD67B1ECD8EBF00CBC44B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DFBD69C1ECDA09B00CBC44B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

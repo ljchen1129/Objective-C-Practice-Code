@@ -24,8 +24,10 @@
 //    NSString *name = [p valueForKey:@"name"];
 //    
 //    NSLog(@"name = %@", name);
-    [p setValue:@"zhangsan" forKey:@"name"];
-    [p name];
+//    [p setValue:@"zhangsan" forKey:@"name"];
+//    [p name];
+    
+    [p setValue:nil forKey:@"name"];
 }
 
 
